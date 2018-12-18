@@ -1,0 +1,39 @@
+body.login{
+	background: #C58C6C;
+	font-family: serif;
+}
+
+.login h1 a {
+ 	background-image: url('assets/images/CC-logo-login.png'); 
+	background-size: 150px; 
+	height: 140px; 
+	width: 150px; 
+} 
+
+form#loginform{
+box-shadow: 0 2px 5px black;
+border-radius: 5px;
+}
+
+.login label {
+    color: black;
+    font-size: 16px
+ }
+
+ #nav, #backtoblog{
+ 	display: none;
+ }
+
+ .login .submit #wp-submit{
+ 	background: #C58C6C;
+	border-color: #C58C6C;
+	box-shadow: 0 1px 0 #C57C54;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px #C5A28C,1px 0 1px #C5A28C,0 1px 1px #C5A28C,-1px 0 1px #C5A28C;
+ }
+
+ .login .submit #wp-submit:hover, .login .submit #wp-submit:active, .login .submit #wp-submit:focus{
+	 background: #C57C54;
+	border-color: #C57C54;
+}
